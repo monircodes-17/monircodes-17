@@ -5,28 +5,46 @@
   font-family: "Inter", sans-serif;
 }
 
-/* Navbar Section */
+/* Navbar Section Start */
 
 #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1600px;
+  max-width: 1450px;
   margin: auto;
   padding: 30px 0;
 }
 
-ul {
+.nav-menu ul {
   display: flex;
   list-style: none;
   gap: 1.5rem;
 }
 
-ul li {
+.nav-menu ul li {
   text-align: center;
-  color: #575757;
   font-size: 1.1rem;
   font-family: "Arimo", sans-serif;
+ 
+}
+
+.nav-menu ul a {
+  text-decoration: none;
+  color: #575757;
+}
+
+.nav-menu ul li:hover {
+  background-color: #abb2b8;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  font-family: "Arimo", sans-serif;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  font-weight: bolder;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s
 }
 
 .btn button {
@@ -45,7 +63,9 @@ ul li {
   background-color: #0e1b3f;
 }
 
-/* Hero Section */
+ /* Navbar Section End */
+
+/* Hero Section Start */
 
 #hero {
   background-image:
@@ -88,16 +108,19 @@ ul li {
   margin-top: 20%;
 }
 
-/* Speakers Section */
+/* Hero Section End */
+
+/* Speakers Section Start */
 
 #speakers {
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
 }
 
-.section-title {
+.speaker-title {
   text-align: center;
   font-size: 2.6rem;
   color: #000101;
+  margin-bottom: 3rem;
 }
 
 .speakers-container {
@@ -121,19 +144,6 @@ ul li {
   border-radius: 0.9rem 0.9rem 0 0;
 }
 
-.card-effect:hover {
-  transform: translate(10rem);
-}
-
-.card-two,
-.card-effect {
-  transition: 1s;
-}
-
-.card-two:hover {
-  transform: translate(-7rem);
-}
-
 .speaker-content {
   padding: 1.6rem;
 }
@@ -142,6 +152,7 @@ ul li {
 .speaker-content h3 {
   margin-bottom: 1rem;
 }
+
 
 .speaker-content h3 {
   color: #0D1B2A;
@@ -159,3 +170,143 @@ ul li {
   font-size: 0.9rem;
   color: #575757;
 }
+
+/* Speakers Section End */
+
+/* Pricing Section Start */
+
+#pricing {
+  margin-bottom: 9rem;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.pricing-title h4 {
+  font-size: 3rem;
+  color: #0D1B2A;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pricing-title p {
+  color: #575757;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.pricing-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  height: 480px;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.08);
+  border-radius: 0.9rem;
+}
+
+.pricing-label {
+  padding: 1.9rem 0 0 0.6rem;
+  width: 85%;
+  margin: 0 auto;
+  border-bottom: 0.1rem solid #E5E7EB;
+}
+
+.pricing-label h6 {
+  color: #888888;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.pricing-label h1 {
+  font-size: 3rem;
+  color: #0D1B2A;
+  font-weight: bold;
+}
+
+.pricing-label p {
+  padding-top: 0.1rem;
+  font-size: 1rem;
+  color: #888888;
+  margin-bottom: 1.3rem;
+}
+
+.pricing-list ul {
+  padding: 1.7rem;
+}
+
+.pricing-list ul li {
+  color: #333333;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  margin-left: 1.5rem;
+}
+
+.pricing-list ul li::marker {
+  color: #2563EB;
+}
+
+.pricing-btn {
+  text-align: center;
+}
+
+.pricing-btn button {
+  background-color: #FFFFFF;
+  border: 1px solid #2563EB;
+  color: #2563EB;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0.6rem 7rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.pro-card {
+  background-color: #0D1B2A;
+}
+
+.pro-list ul li {
+  color: #FFFFFf;
+  font-weight: 200;
+}
+
+.pro h6 {
+  color: #93C5FD;
+}
+
+.pro h1 {
+  color: #FFFFFF;
+}
+
+.pro-btn button {
+  background-color: #2563EB;
+  color: #FFFFFF;
+}
+
+.team-btn button {
+  background-color: #FFFFFF;
+  border: 1px solid #0D1B2A;
+  color: #0D1B2A;
+}
+
+.pricing-btn button:hover {
+  background-color: #2563EB;
+  color: #FFFFFF;
+}
+
+.pro-btn button:hover {
+  background-color: #FFFFFF;
+  color: #0D1B2A;
+  border: 1px solid #0D1B2A;
+}
+
+.team-btn button:hover {
+  background-color: #0D1B2A
+}
+ 
+/* Pricing Section End */
