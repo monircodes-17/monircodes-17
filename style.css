@@ -38,3 +38,47 @@ ul li {
   border: none;
   border-radius: 10px;
 }
+
+/* Hero Section */
+
+#hero {
+  background-image:
+    linear-gradient(to right, rgb(0, 0, 0, 9), rgb(0, 0, 0, 0.1)),
+    url('./images/banner.jpg');
+  height: 100vh;
+  padding-top: 3rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5.5rem;
+}
+
+.hero-content {
+  color: #FFFFFF;
+  text-align: center;
+  display: grid;
+  gap: 2rem 0;
+}
+
+.hero-content h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.6rem;
+}
+
+.hero-btn {
+  text-align: center;
+
+}
+
+.hero-btn button {
+  font-size: 1.2rem;
+  padding: 1.15rem 3.4rem;
+  margin-top: 20%;
+}
