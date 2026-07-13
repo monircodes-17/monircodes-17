@@ -1,0 +1,7 @@
+I am new to programming and recently started the Programming Hero course. After completing the HTML5 and CSS3 modules, we have been given Assignment 1 to build the DevConf 2026 landing page using the concepts taught in the course. AI tools were not allowed for the main assignment, and Alhamdulillah, I completed it successfully. However, one section was intentionally left for AI usage only. The instructions mentioned that this section must remain relevant to the DevConf 2026 theme, such as Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, or a Job Board. I would like to know which section would be the most suitable for me.  
+
+You mentioned that the Hackathon Section would be the most suitable choice for me. Please give me some creative and engaging ideas for a Hackathon section that would fit well with the theme and atmosphere of DevConf 2026.
+
+Okay then, Design a modern and engaging Hackathon section for the AI section of the DevConf 2026 landing page using HTML5 and CSS3 only. The design should use a dark theme with blue accent colors and should blend seamlessly with the existing design, style, and color scheme of the DevConf 2026 conference website.
+
+The section should include an attractive title, a short description encouraging participation, a visually appealing card layout to showcase important information, and a prominent call-to-action button. The overall design should be clean, professional, and aligned with the atmosphere of a developer conference.
