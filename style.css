@@ -13,7 +13,7 @@
   align-items: center;
   max-width: 1450px;
   margin: auto;
-  padding: 30px 0;
+  padding: 2rem 0;
 }
 
 .nav-menu ul {
@@ -26,7 +26,7 @@
   text-align: center;
   font-size: 1.1rem;
   font-family: "Arimo", sans-serif;
- 
+
 }
 
 .nav-menu ul a {
@@ -56,21 +56,21 @@
   border: none;
   border-radius: 0.7rem;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .btn button:hover {
   background-color: #0e1b3f;
 }
 
- /* Navbar Section End */
+/* Navbar Section End */
 
 /* Hero Section Start */
 
 #hero {
   background-image:
-    linear-gradient(to right, rgb(0, 0, 0, 9), rgb(0, 0, 0, 0.1)),
-    url('./images/banner.jpg');
+    linear-gradient(to right, rgb(0, 0, 0, 54), rgb(0, 0, 0, 0.2)),
+    url('./images/banner.png');
   height: 100vh;
   padding-top: 3rem;
   background-repeat: no-repeat;
@@ -308,5 +308,179 @@
 .team-btn button:hover {
   background-color: #0D1B2A
 }
- 
+
 /* Pricing Section End */
+
+/* Hackathon Section Start */
+
+#hackathon {
+  background: #0b1120;
+  max-width: 1600px;
+  padding: 8rem 10%;
+  color: white;
+  border-radius: 2rem;
+  margin: 0 auto 11rem;
+}
+
+.hackathon-content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.hackathon-content h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.hackathon-desc {
+  max-width: 750px;
+  margin: 0 auto 4rem;
+  color: #9ca3af;
+  line-height: 1.8;
+  font-size: 1.1rem;
+
+}
+
+.hackathon-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 1.6rem;
+  margin-bottom: 3.5rem;
+}
+
+.hack-card {
+  background: #111827;
+  padding: 3rem 2rem;
+  border-radius: 1.2rem;
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  transition: 0.3s ease;
+}
+
+.hack-card:hover {
+  transform: translateY(-0.5rem);
+  border-color: #3b82f6;
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.hack-card h3 {
+  font-size: 1.8rem;
+  color: #60a5fa;
+  margin-bottom: 0.7rem;
+}
+
+.hack-card p {
+  color: #cbd5e1;
+  font-size: 1rem;
+}
+
+.hack-btn button {
+  display: inline-block;
+  padding: 1.2rem 2.5rem;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: white;
+  text-decoration: none;
+  border-radius: 3rem;
+  font-weight: 600;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.hack-btn button:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.5rem 1.5rem rgba(59, 130, 246, 0.4);
+}
+
+/* Hackathon Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
