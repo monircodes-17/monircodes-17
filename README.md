@@ -1,4 +1,4 @@
-<img src="./readme.jpg" width="200">
+<img src="./readme.png" width="200">
 
 # Hi, I'm Md. Mehidy Hasan Monir
 
